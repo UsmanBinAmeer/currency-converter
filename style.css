@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #001e4d;
+}
+
+.wrapper {
+    width: 370px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.wrapper header {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wrapper form {
+    margin: 40px 0 20px 0;
+}
+
+form :where(input, select, button) {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+form input {
+    border: 1px solid #999;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 17px;
+}
+
+form p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+form input:focus {
+    border: 2px solid #001e4d;
+    padding: 0 14px;
+}
+
+form .drop_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop_list .select_box {
+    display: flex;
+    width: 120px;
+    height: 45px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.select_box select {
+    width: 800px;
+}
+
+.select_box img {
+    max-width: 30px;
+}
+
+.drop_list .from {
+    margin-right: 20px;
+}
+
+.drop_list .to {
+    margin-left: 20px;
+}
+
+.icon {
+    margin-top: 20px;
+}
+
+.exchange_rate {
+    margin-top: 20px;
+}
+
+.from p,
+.to p {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 25px;
+    font-size: 18px;
+    height: 52px;
+    color: #fff;
+    background-color: #001e4d;
+    cursor: pointer;
+}
+
+.exchange_rate {
+    padding: 4px;
+    font-size: 19px;
+}
+
+button:hover {
+    font-size: 19px;
+}
+
+.select_box img {
+    margin-left: 10px;
+}
+
+.select_box select {
+    margin-left: 5px;
+}
+
+.select_box {
+    padding: 5px;
+}
+
+.select_box select::-webkit-scrollbar {
+    width: 8px;
+}
+
+.select_box select::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.select_box select::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 8px;
+    border-right: 2px solid #fff;
+}
